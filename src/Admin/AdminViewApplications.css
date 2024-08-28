@@ -1,0 +1,91 @@
+   .admin-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .filter-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .filter-form .form-check {
+    margin-bottom: 10px;
+  }
+  
+  .application-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  .application-table thead th {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .application-table tbody td {
+    padding: 10px;
+  }
+  
+  .application-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .application-table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .status-label {
+    display: block;
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .status-label.pending {
+    background-color: #ffc107; 
+  }
+  
+  .status-label.confirm {
+    background-color: #28a745; 
+  }
+  
+  .status-label.reject {
+    background-color: #dc3545; 
+  }
+  
+  .status-label.approved {
+    background-color: #17a2b8; 
+  }
+  
+  .application-table .btn-info {
+    background-color: #17a2b8;
+    border: none;
+  }
+  
+  .application-table .btn-success {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  .application-table .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .application-table .btn-info,
+  .application-table .btn-success,
+  .application-table .btn-danger {
+    border-radius: 4px;
+  }
+  
+  .application-table .btn-info {
+    margin-right: 8px;
+  }
+  

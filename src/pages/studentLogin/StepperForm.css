@@ -1,0 +1,37 @@
+/* StepperForm.css */
+
+.custom-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .custom-card .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .progress-bar {
+    height: 4px;
+    background-color: #007bff;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+  

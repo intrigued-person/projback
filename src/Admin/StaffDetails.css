@@ -1,0 +1,66 @@
+/* StaffDetails.css */
+
+.staff-table-container {
+    background-color: #f8f9fa; /* Light background color for the container */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  }
+  
+  .add-staff-button {
+    background-color: #007bff; /* Primary blue color */
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .add-staff-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+    color: white;
+  }
+  
+  .table th, .table td {
+    text-align: center; /* Center-align text in table cells */
+  }
+  
+  .table th {
+    background-color: #343a40; /* Dark background for table headers */
+    color: white;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #e9ecef; /* Light gray background for even rows */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #dee2e6; /* Slightly darker gray for row hover */
+  }
+  
+  .modal-content {
+    border-radius: 8px; /* Rounded corners for the modal */
+  }
+  
+  .modal-header {
+    background-color: #343a40; /* Dark background for modal header */
+    color: white;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d; /* Gray color for the cancel button */
+    border: none;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+  }
+  
+  .modal-footer .btn-danger {
+    background-color: #dc3545; /* Red color for the delete button */
+    border: none;
+  }
+  
+  .modal-footer .btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
